@@ -1,0 +1,131 @@
+created first_app using "rails new first_app"
+
+use "bundle show <gem name>" to see the install location of the gems
+ex.  bundle show json
+     output = /var/lib/gems/1.9.1/gems/json-1.8.0
+
+full install sequence captured below ... "rails" runs the bundle install command after the dir/file creation steps are complete
+scott@localhost:~/Ruby/rails_projects$ rails new first_app
+      create  
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/images/rails.png
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/mailers
+      create  app/models
+      create  app/views/layouts/application.html.erb
+      create  app/mailers/.gitkeep
+      create  app/models/.gitkeep
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/secret_token.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  doc
+      create  doc/README_FOR_APP
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.gitkeep
+      create  lib/assets
+      create  lib/assets/.gitkeep
+      create  log
+      create  log/.gitkeep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/index.html
+      create  public/robots.txt
+      create  script
+      create  script/rails
+      create  test/fixtures
+      create  test/fixtures/.gitkeep
+      create  test/functional
+      create  test/functional/.gitkeep
+      create  test/integration
+      create  test/integration/.gitkeep
+      create  test/unit
+      create  test/unit/.gitkeep
+      create  test/performance/browsing_test.rb
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.gitkeep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.gitkeep
+      create  vendor/plugins
+      create  vendor/plugins/.gitkeep
+         run  bundle install
+Enter your password to install the bundled RubyGems to your system: 
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake (10.1.0) 
+Using i18n (0.6.5) 
+Using multi_json (1.7.9) 
+Using activesupport (3.2.3) 
+Using builder (3.0.4) 
+Using activemodel (3.2.3) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.5) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.2) 
+Using hike (1.2.3) 
+Using tilt (1.4.1) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.3) 
+Using mime-types (1.24) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.15) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.3) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.37) 
+Using activerecord (3.2.3) 
+Using activeresource (3.2.3) 
+Using bundler (1.3.5) 
+Installing coffee-script-source (1.6.3) 
+Installing execjs (2.0.1) 
+Installing coffee-script (2.2.0) 
+Using rack-ssl (1.3.3) 
+Using json (1.8.0) 
+Using rdoc (3.12.2) 
+Using thor (0.14.6) 
+Using railties (3.2.3) 
+Installing coffee-rails (3.2.2) 
+Installing jquery-rails (3.0.4) 
+Using rails (3.2.3) 
+Installing sass (3.2.10) 
+Installing sass-rails (3.2.6) 
+Installing sqlite3 (1.3.8) 
+Installing uglifier (2.2.0) 
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+
